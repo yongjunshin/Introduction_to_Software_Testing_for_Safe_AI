@@ -2,6 +2,7 @@
 
 Welcome to **Introduction to Software Testing for Safe AI** - a comprehensive course that bridges classical software testing fundamentals with modern techniques for evaluating AI-enabled systems.
 
+---
 
 ## 🎯 Learning Objectives
 
@@ -12,6 +13,8 @@ By the end of this course, participants will be able to:
 - **Apply** learned techniques to their own AI software projects and systems
 - **Design** new testing techniques and adequacy metrics for AI software
 
+---
+
 ## 🎓 Target Audience
 
 - **AI Engineers working towards Safe AI** who want to comprehensively and systematically test their AI systems
@@ -19,6 +22,8 @@ By the end of this course, participants will be able to:
 - **AI Researchers** who want to design new software testing methods for their specific domains
 - **Software Engineering Beginners** who are new to software engineering and software testing
 - **Software Engineers** transitioning to AI/ML projects who need specialized testing knowledge
+
+---
 
 ## 📚 Prerequisites
 
@@ -77,7 +82,7 @@ By the end of this course, participants will be able to:
 ### **Module 12: Closing**
 - [Course Ending](../12_closing/1_course_ending.md)
 
-
+---
 
 ## 📅 Schedule
 
