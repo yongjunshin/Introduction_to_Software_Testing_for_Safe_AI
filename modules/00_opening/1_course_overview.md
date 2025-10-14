@@ -50,25 +50,25 @@ By the end of this course, participants will be able to:
 - [Neuron Coverages](../02_test_coverages/2_neuron_coverages.md)
 
 ### **Module 3: Fuzz Testing**
-- [Fuzz Testing](../03_fuzz_testing/)
+- [Fuzz Testing](../03_fuzz_testing/1_fuzz_testing.md)
 
 ### **Module 4: Mutation Testing**
-- [Mutation Testing](../04_mutation_testing/)
+- [Mutation Testing](../04_mutation_testing/1_mutation_coverage.md)
 
 ### **Module 5: Search-based Testing**
-- [Search-based Testing](../05_search_based_testing/)
+- [Search-based Testing](../05_search_based_testing/1_search_based_testing.md)
 
 ### **Module 6: Metamorphic Testing**
-- [Metamorphic Testing](../06_metamorphic_testing/)
+- [Metamorphic Testing](../06_metamorphic_testing/1_metamorphic_testing.md)
 
 ### **Module 7: Input Diversity**
-- [Test Input Diversity](../07_input_diversity/)
+- [Test Input Diversity](../07_input_diversity/1_input_diversities.md)
 
 ### **Module 8: Interactive Testing**
-- [Interactive Testing](../08_interactive_testing/)
+- [Interactive Testing](../08_interactive_testing/1_interactive_testing.md)
 
 ### **Module 9: Test Optimization**
-- [Test Optimization](../09_test_optimization/)
+- [Test Optimization](../09_test_optimization/1_test_optimization.md)
 
 ### **Module 10: Domain-specific Testing Methods**
 - [Vision Testing](../10_domain_specific_testing_methods/1_vision_testing.md)
