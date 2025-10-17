@@ -50,10 +50,6 @@ By the end of this course, participants will be able to:
 ---
 
 
-## 👉 **Start from**: [Course Overview](./modules/00_opening/1_course_overview.md)
-
----
-
 ## 🔄 **Course Updates**
 
 This course is continuously updated.
@@ -69,4 +65,9 @@ All course documents and exercises are summarized and programmed by the lecturer
 It is generously open to use but should contact for permission.
 
 For inquiries about the 3-day intensive course including lecture slides, please contact for more information.
+
+--- 
+## 👉 **Start from**: [Course Overview](./modules/00_opening/1_course_overview.md)
+
+---
 
