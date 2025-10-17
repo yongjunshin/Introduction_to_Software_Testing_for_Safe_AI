@@ -1,10 +1,10 @@
-# Course Overview
+# **Course Overview**
 
 Welcome to **Introduction to Software Testing for Safe AI** - a comprehensive course that bridges classical software testing fundamentals with modern techniques for evaluating AI-enabled systems.
 
 ---
 
-## 🎯 Learning Objectives
+## **🎯 Learning Objectives**
 
 By the end of this course, participants will be able to:
 
@@ -15,7 +15,7 @@ By the end of this course, participants will be able to:
 
 ---
 
-## 🎓 Target Audience
+## **🎓 Target Audience**
 
 - **AI Engineers working towards Safe AI** who want to comprehensively and systematically test their AI systems
 - **AI Practitioners** who want to learn and apply modern software testing techniques for AI systems
@@ -25,7 +25,7 @@ By the end of this course, participants will be able to:
 
 ---
 
-## 📚 Prerequisites
+## **📚 Prerequisites**
 
 - **Python programming knowledge** (for practical exercises and implementations)
 - **Basic understanding of Deep Neural Networks (DNN)** and machine learning concepts
@@ -34,15 +34,15 @@ By the end of this course, participants will be able to:
 
 ---
 
-## 📖 Course Content
+## **📖 Course Content**
 
 ### **Module 0: Opening**
 - [Course Overview](./1_course_overview.md)
 - [Environment Setup](./2_environment_setup.md)
 
 ### **Module 1: Fundamentals**
-- [Software Engineering Fundamentals](../01_fundamentals/1_se-fundamentals.md)
-- [Software Testing Fundamentals](../01_fundamentals/2_testing-fundamentals.md)
+- [Software Engineering Fundamentals](../01_fundamentals/1_se_fundamentals.md)
+- [Software Testing Fundamentals](../01_fundamentals/2_testing_fundamentals.md)
 - [AI Testing Overview](../01_fundamentals/3_ai_testing_overview.md)
 
 ### **Module 2: Test Coverages**
@@ -84,7 +84,7 @@ By the end of this course, participants will be able to:
 
 ---
 
-## 📅 Schedule
+## **📅 Schedule**
 
 This is designed as a **3-day (24h) intensive course** with the following structure:
 
@@ -112,3 +112,10 @@ This is designed as a **3-day (24h) intensive course** with the following struct
 - **Afternoon (Modules 11-12)**:
   - Practical projects and challenges
   - Course conclusion and next steps
+
+---
+
+👉 **Move on to next section**: [Environment Setup](./2_environment_setup.md)
+
+
+---
