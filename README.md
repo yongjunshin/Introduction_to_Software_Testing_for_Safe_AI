@@ -1,8 +1,9 @@
 # Introduction to Software Testing for Safe AI
 
-## 👨‍🏫 Course Lecturer
+## 👨‍🏫 **Course Lecturer**
 
-### Dr. Yong-Jun Shin
+### **Dr. Yong-Jun Shin**
+
 **Seneior Researcher, Lecturer**  
 *Electronics and Tellecommunications Research Institute (ETRI), South Korea*
 
@@ -12,56 +13,60 @@
 
 ---
 
+## **🎯 Learning Objectives**
 
+By the end of this course, participants will be able to:
+
+- **Understand** the basic concepts and modern techniques of software testing for AI systems
+- **Exercise** and practice various AI testing techniques through hands-on activities
+- **Apply** learned techniques to their own AI software projects and systems
+- **Design** new testing techniques and adequacy metrics for AI software
+
+---
+
+## **🎓 Target Audience**
+
+- **AI Engineers working towards Safe AI** who want to comprehensively and systematically test their AI systems
+- **AI Practitioners** who want to learn and apply modern software testing techniques for AI systems
+- **AI Researchers** who want to design new software testing methods for their specific domains
+- **Software Engineering Beginners** who are new to software engineering and software testing
+- **Software Engineers** transitioning to AI/ML projects who need specialized testing knowledge
+
+---
+
+## **📖 Course Content**
+
+- Course introduction and environment setup
+- Software engineering and testing fundamentals
+- AI testing overview
+- Software and neuron coverage techniques
+- Fuzz testing, mutation testing, search-based testing
+- Metamorphic testing, input diversity, interactive testing
+- Test optimization
+- Modern applications: vision testing, ADS testing, LLM testing
+- Challenge and Practical projects
 
 
 ---
 
-## 🔬 Reading Lists
 
-This course is built upon recent software engineering research in AI testing, including:
-
-### **Key Research Papers**
-- **DeepXplore** (2017) - Automated whitebox testing of deep learning systems
-- **DeepGauge** (2018) - Multi-granularity testing criteria for deep learning systems
-- **Structural Coverage** (2019) - Test coverage criteria for deep neural networks
-- **Surprise Adequacy** (2019) - Guiding deep learning system testing
-- **Importance-Driven Testing** (2020) - Importance-driven deep learning system testing
-- **Black-box Testing** (2023) - Test case diversity for deep neural networks
-- **Autonomous Vehicle Testing** (2024) - Adequacy metrics for autonomous vehicles
-
-### **Research Areas Covered**
-- Neural network testing adequacy
-- Autonomous system verification
-- Test case generation and selection
-- Coverage metrics and evaluation
-- Diversity-based testing approaches
-- Metamorphic testing applications
-- Mutation testing for AI systems
+## 👉 **Start from**: [Course Overview](./modules/00_opening/1_course_overview.md)
 
 ---
 
-## 🛠️ Useful Tools
-
-### **White-box testing**
-- Course slides and presentations
-- Research paper readings
-- Practical coding exercises
-- Testing framework demonstrations
-
-### **Search-based testing**
-- Python development environment
-- Jupyter notebooks
-- AI testing frameworks (to be introduced)
-- Visualization tools for coverage analysis
-
----
-
-
-
-## 🔄 Course Updates
+## 🔄 **Course Updates**
 
 This course is continuously updated.
 
+**April 2026:** Initial course launch and content updates
 
-**Jan 2024:** Initial course launch and content updates
+---
+
+## **©️ Copyrights**
+
+All course documents and exercises are summarized and programmed by the lecturer.
+
+It is generously open to use but should contact for permission.
+
+For inquiries about the 3-day intensive course including lecture slides, please contact for more information.
+
