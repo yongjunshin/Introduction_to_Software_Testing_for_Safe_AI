@@ -6,8 +6,8 @@ We'll provide an overview of software engineering concepts.
 
 ## **What is software engineering?**
 
-* "Software engineering is a discipline that is concerned with all aspects of software production from the early stages of system specification to maintaining the system after it has gone into use." (Software engineering, Ian Sommerville)
-* "The application of a systematic, disciplined, quantifiable approach to development, operation and maintenance of software" (IEEE Systems and Software Engineering Vocabulary)
+- "Software engineering is a discipline that is concerned with all aspects of software production from the early stages of system specification to maintaining the system after it has gone into use." (Software engineering, Ian Sommerville)
+- "The application of a systematic, disciplined, quantifiable approach to development, operation and maintenance of software" (IEEE Systems and Software Engineering Vocabulary)
 
 ---
 
@@ -77,7 +77,7 @@ The **software crisis** refers to the difficulties in writing correct, understan
 
 ### **V model**
 
-The V model emphasizes verification and validation at each stage, with testing activities corresponding to each development phase.
+The V model shows the overall software development process emphasizing verification and validation activities corresponding to each development phase.
 
 - **Requirement gathering**: Collect and document user needs and system requirements
 - **System analysis**: Analyze requirements and define system architecture
@@ -93,7 +93,7 @@ The V model emphasizes verification and validation at each stage, with testing a
 
 - **Waterfall model**: Sequential phases (requirements → design → implementation → testing → maintenance) with minimal overlap
 - **Spiral model**: Iterative approach combining design and prototyping with risk assessment and mitigation
-- **Agile model**: Iterative development with short sprints, continuous collaboration, and adaptive planning 
+- **Agile model**: Iterative development with short sprints, continuous collaboration, and adaptive planning. 
 
 ---
 
@@ -141,7 +141,7 @@ The V model emphasizes verification and validation at each stage, with testing a
 - Risk management and mitigation
 - Communication and stakeholder management
 
-### **Beyond technology, understanding humans**
+### **Beyond technology, understanding engineers**
 - Code Today, Deadline Tomorrow: Procrastination Among Software Developers (ICSE 2025)  
     - Shows how **last-minute coding often leads to more bugs and poor-quality code**—like students rushing work the night before a deadline.  
 - Time Warp: The Gap Between Developers’ Ideal vs Actual Workweeks in an AI-Driven Era (ICSE 2025)  
