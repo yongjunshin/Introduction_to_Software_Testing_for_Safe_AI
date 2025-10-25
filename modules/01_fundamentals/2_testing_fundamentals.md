@@ -59,15 +59,72 @@ Software analysis can be categorized into two main approaches based on when and 
 
 ### **Knowing When to Stop**
 
-**Exhaustive Testing**
+#### **Exhaustive Testing**
 
-**Test Adequacy**
+**Definition**: Testing all possible inputs and execution paths of a program
+
+Examples:
+- Simple function: `add(a, b)` where a and b are real numbers
+- String processing: Testing all possible strings of any length
+- User interface: Testing all possible user interactions and sequences
+- Database queries: Testing all possible query combinations and data states 
+
+
+Why it's impossible:
+- **Infinite input space**: Most programs accept infinite possible inputs
+- **Exponential explosion**: Number of test cases grows exponentially with program complexity
+- **Resource constraints**: Limited time, budget, and computational resources
+- **Combinatorial explosion**: Testing all combinations of inputs becomes unmanageable
+
+Since exhaustive testing is impossible, we need practical criteria to determine when our testing is "good enough" - this is where test adequacy comes in.
+
+#### **Test Adequacy**
+
+**Definition**: Test adequacy measures how well a test suite covers the software under test, providing criteria for determining when testing is "good enough."
+
+**Example adequacy metrics:**
+
+| **Metric** | **Definition** |
+|------------|----------------|
+| **Statement Coverage** | Percentage of code statements executed |
+| **Branch Coverage** | Percentage of decision branches taken |
+| **Path Coverage** | Percentage of execution paths tested |
+| **Function Coverage** | Percentage of functions called |
+| **Condition Coverage** | Percentage of boolean conditions tested |
+
+Good test adequacy metrics for a software under test can be useful tools that brings us to knowing when to stop testing.
+
 
 ### **Knowing What is Right**
 
-**Implicit vs Explicit Test Oracles**
+#### **Test Oracle Problem**
 
-**Test Oracle Problem**
+**Definition:**
+The difficulty of determining the correct expected output for test cases, especially in complex, non-deterministic, or evolving systems.
+
+
+**Examples in Autonomous Driving Domain:**
+
+| **Software Module** | **Test Oracle Problem Example** |
+|---------------------|------------------------|
+| **Object Detection** | What's the "correct" detection of a pedestrian in foggy conditions? |
+| **Path Planning** | What's the "correct" route in complex traffic scenarios? |
+| **Behavior Prediction** | What's the "correct" prediction of other vehicles' behavior? |
+| **Emergency Response** | What's the "correct" action in emergency situations? |
+
+
+#### **Implicit vs Explicit Test Oracles**
+
+| **Aspect** | **Implicit Oracles** | **Explicit Oracles** |
+|------------|---------------------|---------------------|
+| **Definition** | Things that should not happen regardless of program semantics | Things that should happen due to specific requirements/business logic |
+| **Scope** | General correctness properties | Domain-specific correctness criteria |
+| **Examples** | • Crash<br>• Null pointer dereference<br>• Infinite loop<br>• Memory leaks<br>• Stack overflow<br>• Vehicle crash | • Assertions<br>• Expected return values<br>• Specific output formats<br>• Business rule compliance<br>• Performance requirements<br>• Safe steering expectation for collision avoidance |
+| **Advantages** | • Easy to define<br>• Universal applicability<br>• Clear failure criteria | • Precise validation<br>• Domain-specific accuracy<br>• Business logic verification |
+| **Limitations** | • May miss domain-specific bugs<br>• Limited to general properties | • Requires detailed specifications<br>• Domain knowledge needed |
+
+Test oracles are usually derived from the understanding of the requirements of the software under test.
+Automated generation of test oracles, especially for explicit oracles, is a challenge (e.g., how do we verify that the test oracle generator's behavior matches the software under test's expected behavior?)
 
 
 ---
@@ -75,21 +132,37 @@ Software analysis can be categorized into two main approaches based on when and 
 
 ## **Types of Software Testing**
 
-- Test case 정의
-- Testing level 종류
-    - white-box vs black-box
-    - 유닛
-    - 시스템
-    - 리그레션..
-- Testing 행위 종류
-- 테스트 생성
-    - 테스트 관리, 진화
-    - 테스트 자동화
-    - 테스트 우선순위화
-- Testing 기법 종류
-    - random
-    - guided random
-    - mutation
-    - search-based
-    - metamorphic
-    - model-based
+### **Testing Based on Software Visibility**
+
+| **Type** | **Definition** |
+|----------|---------------|
+| **Black-box Testing** | Testing without knowledge of internal structure, focusing on inputs and outputs |
+| **White-box Testing** | Testing with full knowledge of internal structure, code, and implementation details |
+| **Gray-box Testing** | Testing with partial knowledge of internal structure and implementation |
+
+### **Testing Based on Development Phase**
+
+| **Type** | **Definition** |
+|----------|---------------|
+| **Unit Testing** | Testing individual components or modules in isolation |
+| **Integration Testing** | Testing interactions between integrated components and subsystems |
+| **System Testing** | Testing the complete integrated system against requirements |
+| **Acceptance Testing** | Testing to verify the system meets user needs and business requirements |
+| **Regression Testing** | Testing to ensure new changes don't break existing functionality |
+
+### **Testing Techniques**
+
+| **Type** | **Definition** |
+|---------------|---------------|
+| **Random Testing** | Generating test cases using random inputs to explore software behavior |
+| **Model-based Testing** | Generating tests from formal models of system behavior and specifications |
+| **Mutation Testing** | Evaluating test quality by introducing faults and checking if tests detect them |
+| **Search-based Testing** | Using optimization algorithms to automatically generate effective test cases |
+| **Metamorphic Testing** | Testing relationships between multiple inputs and outputs without explicit oracles
+
+
+---
+
+👉 **Move on to next section**: [AI Testing Overview](../01_fundamentals/3_ai_testing_overview.md)
+
+---
