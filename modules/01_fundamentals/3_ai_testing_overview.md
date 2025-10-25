@@ -49,7 +49,7 @@ This course will focus on testing AI systems (i.e., machine learning-based softw
 
 ## **Evolution of Software Testing for ML Systems**
 
-Current software testing for ML systems is rapidly evolving to address the unique challenges of testing machine learning systems.
+Current software testing for ML systems is rapidly evolving to address the unique challenges of testing machine learning systems. Some of them are listed below.
 
 ### **Test Adequacy for DNNs**
 - Neuron coverage inspired by structural coverage metrics
