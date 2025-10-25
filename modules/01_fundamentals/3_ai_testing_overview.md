@@ -51,7 +51,7 @@ This course will focus on testing AI systems (i.e., machine learning-based softw
 
 Current software testing for ML systems is rapidly evolving to address the unique challenges of testing machine learning systems. Some of them are listed below.
 
-### **Test Adequacy for DNNs**
+### **Test Adequacy**
 - Neuron coverage inspired by structural coverage metrics
 - Input diversity metrics for comprehensive testing
 
@@ -60,15 +60,13 @@ Current software testing for ML systems is rapidly evolving to address the uniqu
 - Search-based testing for optimizing neuron coverage
 - Mutation testing techniques for DNNs
 
-
 ### **Test Oracle Definition**
 - Metamorphic testing for defining explicit oracles of black-box DNNs
-
 
 ### **Cost Reduction Strategies**
 - Test suite minimization and prioritization while maintaining coverage to minimize high computational cost of DNNs
 
-### **Domain-Specific Testing Evolution**
+### **Domain-Specific Testing**
 - Test suite reduction for CNN recognition models
 - Test driving scenario generations for autonomous driving system testing
 - Robustness testing based on metamorphic testing for LLMs
