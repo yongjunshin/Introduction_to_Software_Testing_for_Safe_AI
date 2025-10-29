@@ -75,4 +75,4 @@ Current software testing for ML systems is rapidly evolving to address the uniqu
 These evolving approaches and techniques will be explored in detail throughout the following sections of this course.
 
 ---
-👉 **Move on to next section**: [Software structural coverages](../02_test_coverages/1_sw_coverages.md)
+👉 **Move on to next section**: [Structural coverages](../02_test_coverages/1_structural_coverages.md)

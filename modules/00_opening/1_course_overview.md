@@ -46,7 +46,7 @@ By the end of this course, participants will be able to:
 - [AI Testing Overview](../01_fundamentals/3_ai_testing_overview.md)
 
 ### **Module 2: Test Coverages**
-- [Software Coverages](../02_test_coverages/1_sw_coverages.md)
+- [Structural Coverages](../02_test_coverages/1_structural_coverages.md)
 - [Neuron Coverages](../02_test_coverages/2_neuron_coverages.md)
 
 ### **Module 3: Fuzz Testing**
