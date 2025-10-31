@@ -118,4 +118,6 @@ Once you see all the checkmarks in the environment verification, you're all set 
 
 ---
 
+👉 **Move on to exercise**: [Environment Setup Exercise](./exercises/hello.ipynb)
+
 👉 **Move on to next section**: [Software Engineering Fundamentals](../01_fundamentals/1_se_fundamentals.md)
