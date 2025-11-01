@@ -165,6 +165,8 @@ Four test cases are needed for 100% MC/DC coverage .
 
 ---
 
-👉 **Move on to exercise**: [Structural Coverage Exercise](./exercises/structural_coverages_exercise.ipynb)
+👉 **Move on to exercises**: 
+- [Structural Coverage Exercise](./exercises/structural_coverages_exercise.ipynb)
+- [Pytest Exercise](./exercises/pytest_exercise.ipynb)
 
 👉 **Move on to next section**: [Neuron Coverages](2_neuron_coverages.md)
