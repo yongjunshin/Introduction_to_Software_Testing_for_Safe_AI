@@ -14,7 +14,7 @@ Just as structural coverage metrics help us assess whether traditional software 
 - The fundamental question: *How do we know if our test inputs sufficiently exercise the internal behaviors of a neural network?*
 
 **Solution:**
-- Researchers developed DNN-specific coverage criteria inspired by traditional structural testing (statement, branch, MC/DC)
+- Software engineering researchers developed DNN-specific coverage criteria inspired by traditional structural testing (statement, branch, MC/DC)
 - These metrics measure how thoroughly test inputs:
   - Activate individual neurons
   - Explore neuron activation ranges
