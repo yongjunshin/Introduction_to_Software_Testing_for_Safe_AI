@@ -4,6 +4,7 @@ FROM python:3.10-slim
 # 시스템 패키지 (PyTorch, matplotlib 등에서 필요한 라이브러리)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     git build-essential libgl1 libgomp1 ca-certificates \
+    nodejs npm \
  && rm -rf /var/lib/apt/lists/*
 
 # pip 업그레이드
