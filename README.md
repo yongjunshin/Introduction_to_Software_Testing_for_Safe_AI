@@ -1,15 +1,18 @@
-# Introduction to Software Testing for Safe AI
+# **Introduction to Software Testing for Safe AI**
 
 ## 👨‍🏫 **Course Lecturer**
 
-### **Dr. Yong-Jun Shin**
+### **Yong-Jun Shin, Ph.D.**
 
-**Seneior Researcher, Lecturer**  
-*Electronics and Tellecommunications Research Institute (ETRI), South Korea*
 
-**Email**: [yjshin@etri.re.kr](mailto:yjshin@etri.re.kr)
+**Bio**
+- **Senior Researcher, Lecturer (2023~)** at Electronics and Tellecommunications Research Institute (ETRI), South Korea
+- **Ph.D. (2017~2023)** at Korea Advanced Institute of Science and Technology (KAIST), South Korea
 
-**Homepage**: [https://yongjunshin.github.io/](https://yongjunshin.github.io/)
+
+**Contact**
+- **Email**: [yjshin@etri.re.kr](mailto:yjshin@etri.re.kr)
+- **Homepage**: [https://yongjunshin.github.io/](https://yongjunshin.github.io/)
 
 ---
 
