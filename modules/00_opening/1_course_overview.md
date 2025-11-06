@@ -53,7 +53,7 @@ By the end of this course, participants will be able to:
 - [Fuzz Testing](../03_fuzz_testing/1_fuzz_testing.md)
 
 ### **Module 4: Mutation Testing**
-- [Mutation Testing](../04_mutation_testing/1_mutation_coverage.md)
+- [Mutation Testing](../04_mutation_testing/1_mutation_testing.md)
 
 ### **Module 5: Search-based Testing**
 - [Search-based Testing](../05_search_based_testing/1_search_based_testing.md)

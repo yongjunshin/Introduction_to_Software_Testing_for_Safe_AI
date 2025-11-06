@@ -1,6 +1,6 @@
 # **Neuron Coverages**
 
-We'll learn neuron coverages of DNN testing inspired by structural coverages.
+We'll get neuron coverages of DNN testing inspired by structural coverages.
 
 ---
 
@@ -31,7 +31,7 @@ Neuron coverage requires that each neuron in the network must be activated at le
 
 ---
 
-## **(K-multisection) Neuron Coverage**<sup id="fnref2a">[2](#fn2)</sup>
+## **K-multisection Neuron Coverage**<sup id="fnref2a">[2](#fn2)</sup>
 
 **Definition**: For a given neuron, k-multisection neuron coverage measures how thoroughly a test suite covers the neuron's *normal activation value range* (observed during training) by dividing it into k equal sections and computing the ratio of covered sections to total sections.
 
@@ -96,13 +96,9 @@ Instead of treating all neurons equally, it focuses on *important neurons*—tho
 ### **References**
 
 - <a id="fn1"></a>**[1]**: Pei, Kexin, et al. "Deepxplore: Automated whitebox testing of deep learning systems." proceedings of the 26th Symposium on Operating Systems Principles (SOSP). 2017.
-
 - <a id="fn2"></a>**[2]**: Ma, Lei, et al. "Deepgauge: Multi-granularity testing criteria for deep learning systems." Proceedings of the 33rd ACM/IEEE international conference on automated software engineering (ASE). 2018.
-
 - <a id="fn3"></a>**[3]**: Sun, Youcheng, et al. "Structural test coverage criteria for deep neural networks." ACM Transactions on Embedded Computing Systems (TECS) 18.5s (2019): 1-23.
-
 - <a id="fn4"></a>**[4]**: Kim, Jinhan, Robert Feldt, and Shin Yoo. "Guiding deep learning system testing using surprise adequacy." 2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE). IEEE, 2019.
-
 - <a id="fn5"></a>**[5]**: Gerasimou, Simos, et al. "Importance-driven deep learning system testing." Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering (ICSE). 2020.
 
 

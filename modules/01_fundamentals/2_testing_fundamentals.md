@@ -2,7 +2,7 @@
 
 
 
-We'll provide an overview of software testing concepts.
+We'll learn about an overview of software testing concepts.
 
 ---
 

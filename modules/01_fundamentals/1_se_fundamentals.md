@@ -1,6 +1,6 @@
 # **Introduction to Software Engineering**
 
-We'll provide an overview of software engineering concepts.
+We'll learn about an overview of software engineering concepts.
 
 ---
 
