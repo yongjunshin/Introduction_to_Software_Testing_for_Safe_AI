@@ -1,4 +1,4 @@
-# Mutation Testing
+# **Mutation Testing**
 
 We'll learn mutation testing.
 
@@ -69,7 +69,15 @@ Directly mutates elements of a trained deep learning model (e.g., neuron weights
 
 ### **References**
 
-- <a id="fn1"></a>**[1]** Ma, Yu-Seung, Jeff Offutt, and Yong-Rae Kwon. "MuJava: a mutation system for Java." Proceedings of the 28th international conference on Software engineering. 2006.
+- <a id="fn1"></a>**[1]** Ma, Yu‐Seung, Jeff Offutt, and Yong Rae Kwon. "MuJava: an automated class mutation system." Software Testing, Verification and Reliability (STVR) 2005, and  "MuJava: a mutation system for Java." Proceedings of the 28th international conference on Software engineering (ICSE) 2006.
 - [2] Ma, Lei, et al. "Deepmutation: Mutation testing of deep learning systems." 2018 IEEE 29th international symposium on software reliability engineering (ISSRE). IEEE, 2018.
 
+---
 
+👉 **Move on to exercises**: 
+- [Python Mutation Testing Exercise](./exercises/python_mutation_testing_exercise.ipynb)
+- [Model-level Mutation Testing Exercise](./exercises/model_level_mutation_testing_exercise.ipynb)
+
+👉 **Move on to next section**: [Search-based Testing](../05_search_based_testing/1_search_based_testing.md)
+
+---
