@@ -25,6 +25,7 @@ Structural coverage is based on the rationale that **a test suite that executes 
 **Mutation Score**: A metric of how effective a test suite is at killing mutants.
 
 - Formally, for a set of mutants \(M\), the mutation score is:
+
   $
   \text{Mutation Score} = \frac{\text{Number of killed mutants}}{\text{Number of non-equivalent mutants}}
   $
