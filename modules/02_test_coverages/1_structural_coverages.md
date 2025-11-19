@@ -1,6 +1,5 @@
 # **Structural Coverages**
 
-We'll learn basic structural coverages of software testing.
 
 ---
 

@@ -1,7 +1,5 @@
 # **Introduction to Software Engineering**
 
-We'll learn about an overview of software engineering concepts.
-
 ---
 
 ## **What is software engineering?**

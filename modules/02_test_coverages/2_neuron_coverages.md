@@ -1,6 +1,5 @@
 # **Neuron Coverages**
 
-We'll get neuron coverages of DNN testing inspired by structural coverages.
 
 ---
 

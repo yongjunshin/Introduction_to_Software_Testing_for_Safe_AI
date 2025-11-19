@@ -1,6 +1,6 @@
 # **AI Testing Overview**
 
-We'll learn about an overview of AI testing concepts.
+
 
 ---
 ## **Testing for AI vs. AI for Testing**

@@ -1,6 +1,6 @@
 # **Random and Fuzz Testing**
 
-We'll learn random and fuzz testing.
+
 
 ---
 

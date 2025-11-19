@@ -1,6 +1,6 @@
 # **Mutation Testing**
 
-We'll learn mutation testing.
+
 
 ---
 

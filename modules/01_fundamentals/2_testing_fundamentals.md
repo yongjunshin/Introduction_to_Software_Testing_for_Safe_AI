@@ -1,9 +1,5 @@
 # **Introduction to Software Testing**
 
-
-
-We'll learn about an overview of software testing concepts.
-
 ---
 
 ## **Static vs Dynamic Software Analysis**
