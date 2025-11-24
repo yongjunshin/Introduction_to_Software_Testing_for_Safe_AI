@@ -76,6 +76,7 @@ The SE community has been steadily developing metamorphic testing as a mature me
 ### **References**
 
 - [1] Zhou, Zhi Quan, Shaowen Xiang, and Tsong Yueh Chen. "Metamorphic testing for software quality assessment: A study of search engines." IEEE Transactions on Software Engineering (TSE) 42.3 (2015): 264-284.
+- [3] Hyun, Sangwon, Mingyu Guo, and M. Ali Babar. "METAL: metamorphic testing framework for analyzing large-language model qualities." 2024 IEEE Conference on Software Testing, Verification and Validation (ICST). IEEE, 2024.
 
 ---
 
