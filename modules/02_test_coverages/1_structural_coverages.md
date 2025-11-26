@@ -148,7 +148,7 @@ Note: Each condition must be proven to independently affect its decision outcome
 
 - Two tests `(A=6, B=5, C=1)` and `(A=3, B=5, C=1)` prove **A** independence (only A changes, Decision 1 changes)
 - **MC/DC Coverage**: 1/3 × 100% = **33.33%** (only 1 out of 3 conditions proven independent)
-- To achieve **100% MC/DC coverage**, we need additional test cases that prove independence:
+- To achieve **100% MC/DC coverage**, we need four test cases that prove independence:
 
 | Test Case | A>5 | B<10 | Decision 1 | C==1 | Decision 2 | MC/DC Test Case? |
 |-----------|-----|------|------------|------|------------|------------------|
@@ -157,9 +157,9 @@ Note: Each condition must be proven to independently affect its decision outcome
 | `(A=6, B=15, C=1)` | T | F | **False** | T | **True** | **O** (Proves B) |
 | `(A=6, B=5, C=2)` | T | T | **True** | F | **False** | **O** (Proves C) |
 
-Four test cases are needed for 100% MC/DC coverage .
+
 - **Why MC/DC?** Required by safety-critical standards (ISO 26262, DO-178C) because:
-  - Provides strong coverage with fewer test cases than path coverage (N+1 vs 2^N tests for N conditions)
+  - Provides strong decision-level coverage with linear test growth (O(#condition)), unlike the exponential growth of full path coverage.
   - MC/DC offers a practical balance between thoroughness and feasibility for safety-critical systems
 
 ---
