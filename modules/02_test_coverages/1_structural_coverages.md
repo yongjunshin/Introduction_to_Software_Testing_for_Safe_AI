@@ -165,7 +165,7 @@ Note: Each condition must be proven to independently affect its decision outcome
 ---
 
 👉 **Move on to exercises**: 
-- [Structural Coverage Exercise](./exercises/structural_coverages_exercise.ipynb)
-- [Pytest Exercise](./exercises/pytest_exercise.ipynb)
+1. [Structural Coverage Exercise](./exercises/01_structural_coverages_exercise.ipynb)
+2. [Pytest Exercise](./exercises/02_pytest_exercise.ipynb)
 
 👉 **Move on to next section**: [Neuron Coverages](2_neuron_coverages.md)

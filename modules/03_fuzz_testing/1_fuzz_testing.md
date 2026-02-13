@@ -80,6 +80,10 @@ Overview of tools like DeepXplore, TensorFuzz, and DeepTest for automated DL sys
 ---
 
 👉 **Move on to exercise**: [Fuzz Testing Exercise](./exercises/fuzz_testing_exercise.ipynb)
+1. [Traditional Coverage-Guided Fuzzing](./exercises/01_traditional_coverage_guided_fuzzing.ipynb)
+2. [MNIST Random & Mutation Testing](./exercises/02_mnist_random_mutation_testing.ipynb)
+3. [MNIST Coverage-Guided Fuzzing](./exercises/03_mnist_coverage_guided_fuzzing.ipynb)
+4. [MNIST FGSM Adversarial Testing](./exercises/04_mnist_fgsm_adversarial_testing.ipynb)
 
 👉 **Move on to next section**: [Mutation Testing](../04_mutation_testing/1_mutation_testing.md)
 

@@ -103,7 +103,10 @@ Instead of treating all neurons equally, it focuses on *important neurons*—tho
 
 ---
 
-👉 **Move on to exercise**: [Neuron Coverage Exercise](./exercises/neuron_coverages_exercise.ipynb)
+👉 **Move on to exercise**: 
+1. [MNIST Model Training Exercise](./exercises/03_mnist_model_training_exercise.ipynb)
+2. [Neuron Coverage Exercise](./exercises/04_neuron_coverages_exercise.ipynb)
+
 
 👉 **Move on to next section**: [Fuzz Testing](../03_fuzz_testing/1_fuzz_testing.md)
 
