@@ -32,8 +32,3 @@ def classify_triangle(a: float, b: float, c: float) -> str:
         return "right"
     else:
         return "scalene"
-
-
-if __name__ == "__main__":
-    a, b, c = map(float, sys.argv[1:])
-    print(classify_triangle(a, b, c))

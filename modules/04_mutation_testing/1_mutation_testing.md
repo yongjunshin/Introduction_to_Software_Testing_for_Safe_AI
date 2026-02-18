@@ -76,8 +76,8 @@ Directly mutates elements of a trained deep learning model (e.g., neuron weights
 ---
 
 👉 **Move on to exercises**: 
-- [Python Mutation Testing Exercise](./exercises/python_mutation_testing_exercise.ipynb)
-- [Model-level Mutation Testing Exercise](./exercises/model_level_mutation_testing_exercise.ipynb)
+- [Python Mutation Testing Exercise](./exercises/01_python_mutation_testing_exercise.ipynb)
+- [Model-level Mutation Testing Exercise](./exercises/02_model_level_mutation_testing_exercise.ipynb)
 
 👉 **Move on to next section**: [Search-based Testing](../05_search_based_testing/1_search_based_testing.md)
 
