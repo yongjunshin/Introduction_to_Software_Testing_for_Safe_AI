@@ -42,7 +42,7 @@ High-level workflow of mutation testing: generate mutants, run the existing test
 
 ### **Mutation Operators**
 
-Common syntactic changes (e.g., arithmetic, relational, logical, and constant modifications) that simulate typical programmer mistakes and are used to create mutants.
+Common syntactic changes (e.g., arithmetic, relational, logical, and constant modifications) that **simulate typical programmer mistakes** and are used to create mutants.
 
 | Language | Mutation Testing Tools                                  |
 |----------------------|-----------------------------------------------------------------|
