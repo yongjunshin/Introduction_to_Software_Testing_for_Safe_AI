@@ -32,34 +32,9 @@ This will create a local copy of all course materials.
 
 ---
 
-## **3. Set up the Docker environment**
+## **3. Start JupyterLab (do this first)**
 
-You have two options to get the required Docker image:
-
-### **Option A: Pull the prepared Docker image (Recommended)**
-
-The instructor has prepared a Docker image with all required libraries.
-Download it with:
-
-```bash
-docker pull <DOCKERHUB_ID>/ai-testing
-```
-
-### **Option B: Build the image locally**
-
-If you prefer to build the image yourself, run:
-
-```bash
-docker build -t ai-testing -f env/Dockerfile .
-```
-
-This will create a local Docker image named `ai-testing` with all the required dependencies.
-
----
-
-## **4. Start JupyterLab**
-
-Run the provided script:
+From the repository root, run:
 
 ```bash
 ./scripts/run_jupyter.sh
@@ -71,14 +46,47 @@ Run the provided script:
 chmod +x scripts/run_jupyter.sh
 ```
 
-This script will:
-- Start a Docker container with the `ai-testing` image
-- Mount your current directory to `/workspace` in the container
-- Launch JupyterLab on port 8888
+The script chooses the Docker image automatically:
+
+- If you already have a **local** image named `ai-testing`, it uses that.
+- Otherwise it uses the **course image on Docker Hub** (see `DOCKERHUB_IMAGE` in `scripts/run_jupyter.sh`). On first use, Docker will **pull** that image if it is not cached yet.
+
+The script then:
+
+- Starts a container and mounts your project folder to `/workspace` in the container
+- Launches JupyterLab on port **8888**
+
+You do **not** need to run `docker pull` or `docker build` beforehand unless something goes wrong (next step).
 
 ---
 
-## **5. Open Jupyter in your browser**
+### **If the script fails: get the image explicitly**
+
+Try the steps below if you see errors such as **image not found**, **pull denied**, **network timeout**, or **build needed** (for example, you are offline or want a self-built image).
+
+#### **Option A: Pull the prepared image**
+
+The instructor provides an image with all required libraries:
+
+```bash
+docker pull yongjunshin/ai-testing:latest
+```
+
+
+
+#### **Option B: Build the image locally**
+
+```bash
+docker build -t ai-testing -f env/Dockerfile .
+```
+
+This A and B creates a local image named `yongjunshin/ai-testing` or `ai-testing`. 
+
+Run `./scripts/run_jupyter.sh` again.
+
+---
+
+## **4. Open Jupyter in your browser**
 
 After running the script, open your browser at:
 👉 **http://localhost:8888/lab**
@@ -87,7 +95,7 @@ You will see the course notebooks under the `modules/` folder.
 
 ---
 
-## **6. Verify your environment**
+## **5. Verify your environment**
 
 To ensure everything is working correctly:
 
