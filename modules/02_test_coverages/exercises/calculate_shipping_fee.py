@@ -1,0 +1,67 @@
+import sys
+
+
+def calculate_shipping_fee(
+    order_total: int,
+    weight_kg: float,
+    distance_km: int,
+    is_island: bool,
+    membership: str,
+    coupon_type: str,
+) -> int:
+    """Calculate shipping fee based on order and delivery conditions."""
+    fee = 0
+
+    # 1. base fee
+    if order_total < 40000:
+        fee += 3000
+
+    # 2. weight surcharge
+    if weight_kg <= 5:
+        fee += 0
+    elif weight_kg <= 20:
+        fee += 2000
+    else:
+        fee += 5000
+
+    # 3. distance surcharge
+    if distance_km <= 10:
+        fee += 0
+    elif distance_km <= 50:
+        fee += 1000
+    else:
+        fee += 3000
+
+    # 4. island surcharge
+    if is_island:
+        fee += 4000
+
+    # 5. membership discount
+    if membership == "WOW":
+        fee = fee // 2
+
+    # 6. coupon discount
+    if coupon_type == "NEW_USER":
+        fee -= 2000
+
+    # 7. final lower bound
+    return max(fee, 0)
+
+
+if __name__ == "__main__":
+    order_total = int(sys.argv[1])
+    weight_kg = float(sys.argv[2])
+    distance_km = int(sys.argv[3])
+    is_island = sys.argv[4].lower() in ("1", "true", "yes", "y")
+    membership = sys.argv[5]
+    coupon_type = sys.argv[6]
+    print(
+        calculate_shipping_fee(
+            order_total,
+            weight_kg,
+            distance_km,
+            is_island,
+            membership,
+            coupon_type,
+        )
+    )
