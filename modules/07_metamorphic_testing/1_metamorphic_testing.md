@@ -20,7 +20,7 @@
 2. **Generate source test cases**: create initial inputs (manually or automatically) and record their observed outputs.
 3. **Derive follow-up test cases**: systematically transform each source input according to an MR to obtain one or more follow-up inputs.
 4. **Execute and compare**: run the program on follow-up inputs and check whether the relation between source and follow-up outputs satisfies the MR.
-5 **Detect violations**: treat any MR violation as a potential fault.
+5. **Detect violations**: treat any MR violation as a potential fault.
 ---
 
 ## **Metamorphic Testing for Traditional SW**
@@ -80,7 +80,8 @@ The SE community has been steadily developing metamorphic testing as a mature me
 
 ---
 
-👉 **Move on to exercises**: 
+👉 **Move on to exercises**:
+- [Traditional software: `calculate_shipping_fee`](./exercises/02_traditional_metamorphic_testing.ipynb)
 - [CNN Metamorphic Testing Exercise](./exercises/cnn_metamorphic_testing_exercise.ipynb)
 - [LLM Metamorphic Testing Exercise](./exercises/llm_metamorphic_testing_exercise.ipynb)
 
