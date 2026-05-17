@@ -1,1 +1,0 @@
-# ADS Testing Challenge
