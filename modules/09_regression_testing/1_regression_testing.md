@@ -30,7 +30,7 @@
 
 ## **Test suite minimization**
 
-**Definition**: Given a test suite \(T\), produce a **smaller** subset \(T' \subseteq T\) that **still satisfies a criterion**—for example, preserving **structural coverage**, covering a set of **requirements**, or killing a set of **mutants**.
+**Definition**: Given a test suite $T$, produce a **smaller** subset $T' \subseteq T$ that **still satisfies a criterion**—for example, preserving **structural coverage**, covering a set of **requirements**, or killing a set of **mutants**.
 
 **Idea:**
 
