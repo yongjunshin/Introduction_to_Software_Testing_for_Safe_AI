@@ -43,3 +43,4 @@ data_raw/
 outputs/
 htmlcov/
 .coverage
+.mutmut-cache
