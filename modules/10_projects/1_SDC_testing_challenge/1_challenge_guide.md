@@ -96,12 +96,13 @@ The formulas come straight from the upstream competition evaluator (`tools/prior
 The whole challenge lives in this folder:
 
 ```
-modules/12_projects/1_SDC_testing_challenge/
+modules/10_projects/1_SDC_testing_challenge/
 ├── 1_challenge_guide.md                    ← this document
 ├── exercises/
 │   └── sdc_prioritization_challenge.ipynb  ← the notebook you work in
 ├── data/
-│   └── sdc-test-data.json                  ← 956 pre-simulated test cases (PASS=603, FAIL=353)
+│   ├── sdc-train.json                      ← 319 labelled cases (for initialize())
+│   └── sdc-test-suite.json                 ← 637 UNlabelled cases (for prioritize())
 └── sdc_lib/                                ← helpers — don't edit these
     ├── data_loader.py
     ├── evaluator.py
@@ -109,13 +110,18 @@ modules/12_projects/1_SDC_testing_challenge/
     └── visualization.py
 ```
 
+> The `has_failed` labels for the 637 test-suite cases are **held by the evaluator**
+> and are not in this repository. Use the local validation split (carved from
+> `sdc-train.json` in the notebook's Section 1) to estimate your APFD while you work;
+> your official score is computed when you submit (see *Submission* below).
+
 ### Steps
 
 1. From the project root, start JupyterLab:
    ```bash
    ./scripts/run_jupyter.sh
    ```
-2. Open `modules/12_projects/1_SDC_testing_challenge/exercises/sdc_prioritization_challenge.ipynb`.
+2. Open `modules/10_projects/1_SDC_testing_challenge/exercises/sdc_prioritization_challenge.ipynb`.
 3. Run all cells once with the **default identity prioritizer** to confirm everything works. You should see an APFD around 0.5 from the baselines.
 4. Edit only the `MyPrioritizer` class cell (Section 4 of the notebook). Re-run Section 5 to see your new score.
 5. Iterate.
@@ -156,10 +162,10 @@ This local exercise keeps the **algorithm task and metrics exactly the same** as
 |---|---|---|
 | Interface | gRPC service (`Initialize`, `Prioritize` RPCs) | Plain Python class with the same two methods |
 | Packaging | Docker image submitted to evaluator | Run inside the existing course JupyterLab container |
-| Data source | MongoDB + PostgreSQL (SensoDat) | Single `sdc-test-data.json` (same upstream tests, no DB) |
+| Data source | MongoDB + PostgreSQL (SensoDat) | Public `sdc-train.json` + `sdc-test-suite.json` (same upstream tests, no DB); test labels held by the evaluator |
 | Simulator | BeamNG.tech runs on the eval server | Pre-cached PASS/FAIL outcomes from the upstream dataset |
-| Dataset size | thousands of tests sampled per evaluation | 956 tests, fixed split (seed=42), train_ratio=0.2 |
-| Submission | Pull request with Docker image link | Save your notebook with the final evaluation report visible |
+| Dataset size | thousands of tests sampled per evaluation | 956 tests, fixed split (seed=42), ~1/3 labelled train (319) / 637 hidden test |
+| Submission | Pull request with Docker image link | Email your `MyPrioritizer` class to the instructor; scored on the hidden test set |
 
 What stayed **identical**:
 - Test case definition (`testId` + sequence of `(x, y)` road points).

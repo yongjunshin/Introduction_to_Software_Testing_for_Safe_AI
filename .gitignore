@@ -44,3 +44,10 @@ outputs/
 htmlcov/
 .coverage
 .mutmut-cache
+
+# =========================
+# SDC challenge — private grading material (DO NOT COMMIT)
+# =========================
+# Master dataset, hidden-test answer key, and the evaluator notebook.
+# Students only get data/sdc-train.json + data/sdc-test-suite.json.
+modules/10_projects/1_SDC_testing_challenge/_grading/

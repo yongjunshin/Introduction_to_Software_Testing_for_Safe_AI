@@ -11,7 +11,16 @@ Students only need to import these helpers — the actual challenge work is
 implementing the `prioritize()` method of their own class.
 """
 
-from sdc_lib.data_loader import SDCTestCase, OracleEntry, load_dataset, split_train_test
+from sdc_lib.data_loader import (
+    SDCTestCase,
+    OracleEntry,
+    load_dataset,
+    split_train_test,
+    load_train,
+    load_test_suite,
+    load_ground_truth,
+    make_local_validation,
+)
 from sdc_lib.evaluator import EvaluationReport, evaluate
 from sdc_lib.baseline import RandomPrioritizer, IdentityPrioritizer
 from sdc_lib.visualization import (
@@ -26,6 +35,10 @@ __all__ = [
     "OracleEntry",
     "load_dataset",
     "split_train_test",
+    "load_train",
+    "load_test_suite",
+    "load_ground_truth",
+    "make_local_validation",
     "EvaluationReport",
     "evaluate",
     "RandomPrioritizer",
