@@ -6,7 +6,7 @@
 
 
 **Bio**
-- **Senior Researcher, Lecturer (2023~)** at Electronics and Tellecommunications Research Institute (ETRI), South Korea
+- **Senior Researcher, Lecturer (2023~)** at Electronics and Telecommunications Research Institute (ETRI), South Korea
 - **Ph.D. (2017~2023)** at Korea Advanced Institute of Science and Technology (KAIST), South Korea
 
 
@@ -39,15 +39,24 @@ By the end of this course, participants will be able to:
 
 ## **📖 Course Content**
 
+This is a **3-day intensive course** covering 11 modules, organized as **4 / 4 / 3** modules per day:
+
+**Day 1 — Foundations & Black-box Approaches**
 - Course introduction and environment setup
-- Software engineering and testing fundamentals
-- AI testing overview
-- Software and neuron coverage techniques
-- Fuzz testing, mutation testing, search-based testing
-- Metamorphic testing, input diversity, interactive testing
-- Test optimization
-- Modern applications: vision testing, ADS testing, LLM testing
-- Challenge and Practical projects
+- Software engineering, software testing, and AI testing fundamentals
+- Black-box testing
+- Constraint-based testing
+
+**Day 2 — Coverage & Generation-based Techniques**
+- Test coverages (structural and neuron coverages)
+- Fuzz testing
+- Search-based testing
+- Mutation testing
+
+**Day 3 — Advanced Methods & Projects**
+- Metamorphic testing
+- Regression testing
+- Projects (SDC Testing Challenge)
 
 
 ---
@@ -57,7 +66,7 @@ By the end of this course, participants will be able to:
 
 This course is continuously updated.
 
-**April 2026:** Initial course launch and content updates
+**June 2026:** Initial course launch. ETRI AI Academy 2026-1 semester
 
 ---
 

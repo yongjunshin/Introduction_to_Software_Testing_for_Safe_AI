@@ -41,77 +41,60 @@ By the end of this course, participants will be able to:
 - [Environment Setup](./2_environment_setup.md)
 
 ### **Module 1: Fundamentals**
-- [Software Engineering Fundamentals](../01_fundamentals/1_se_fundamentals.md)
-- [Software Testing Fundamentals](../01_fundamentals/2_testing_fundamentals.md)
+- [Introduction to Software Engineering](../01_fundamentals/1_se_fundamentals.md)
+- [Introduction to Software Testing](../01_fundamentals/2_testing_fundamentals.md)
 - [AI Testing Overview](../01_fundamentals/3_ai_testing_overview.md)
 
-### **Module 2: Test Coverages**
-- [Structural Coverages](../02_test_coverages/1_structural_coverages.md)
-- [Neuron Coverages](../02_test_coverages/2_neuron_coverages.md)
+### **Module 2: Black-box Testing**
+- [Black-box Testing](../02_black_box_testing/1_black_box_testing.md)
 
-### **Module 3: Fuzz Testing**
-- [Fuzz Testing](../03_fuzz_testing/1_fuzz_testing.md)
+### **Module 3: Constraint-based Testing**
+- [Constraint-based Testing](../03_constraint_based_testing/1_constraint_based_testing.md)
 
-### **Module 4: Mutation Testing**
-- [Mutation Testing](../04_mutation_testing/1_mutation_testing.md)
+### **Module 4: Test Coverages**
+- [Structural Coverages](../04_test_coverages/1_structural_coverages.md)
+- [Neuron Coverages](../04_test_coverages/2_neuron_coverages.md)
 
-### **Module 5: Search-based Testing**
-- [Search-based Testing](../05_search_based_testing/1_search_based_testing.md)
+### **Module 5: Fuzz Testing**
+- [Random and Fuzz Testing](../05_fuzz_testing/1_fuzz_testing.md)
 
-### **Module 6: Metamorphic Testing**
-- [Metamorphic Testing](../06_metamorphic_testing/1_metamorphic_testing.md)
+### **Module 6: Search-based Testing**
+- [Search-based Testing](../06_search_based_testing/1_search_based_testing.md)
 
-### **Module 7: Input Diversity**
-- [Test Input Diversity](../07_input_diversity/1_input_diversities.md)
+### **Module 7: Mutation Testing**
+- [Mutation Testing](../07_mutation_testing/1_mutation_testing.md)
 
-### **Module 8: Interactive Testing**
-- [Interactive Testing](../08_interactive_testing/1_interactive_testing.md)
+### **Module 8: Metamorphic Testing**
+- [Metamorphic Testing](../08_metamorphic_testing/1_metamorphic_testing.md)
 
-### **Module 9: Test Optimization**
-- [Test Optimization](../09_test_optimization/1_test_optimization.md)
+### **Module 9: Regression Testing**
+- [Regression Testing](../09_regression_testing/1_regression_testing.md)
 
-### **Module 10: Domain-specific Testing Methods**
-- [Vision Testing](../10_domain_specific_testing_methods/1_vision_testing.md)
-- [Autonomous Driving System Testing](../10_domain_specific_testing_methods/2_ads_testing.md)
-- [LLM Testing](../10_domain_specific_testing_methods/3_llm_testing.md)
-
-### **Module 11: Projects**
-- [ADS Testing Challenge](../11_projects/1_ads_testing_challenge.md)
-- [BYOP Project](../11_projects/2_byop_project.md)
-
-### **Module 12: Closing**
-- [Course Ending](../12_closing/1_course_ending.md)
+### **Module 10: Projects**
+- [SDC Testing Challenge](../10_projects/1_SDC_testing_challenge/1_challenge_guide.md)
 
 ---
 
 ## **📅 Schedule**
 
-This is designed as a **3-day (24h) intensive course** with the following structure:
+This is designed as a **3-day intensive course**, covering 11 modules split as **4 / 4 / 3** modules per day:
 
-### **Day 1: Foundations & Core Testing Techniques**
-- **Morning (Modules 0-2)**: 
-  - Course introduction and environment setup
-  - Software engineering and testing fundamentals
-  - AI testing overview and test coverages
-- **Afternoon (Modules 3-4)**:
-  - Fuzz testing
-  - Mutation testing
+### **Day 1: Foundations & Black-box Approaches (Modules 0-3)**
+- **Module 0**: Course introduction and environment setup
+- **Module 1**: Software engineering, software testing, and AI testing fundamentals
+- **Module 2**: Black-box testing
+- **Module 3**: Constraint-based testing
 
-### **Day 2: Advanced Testing Methods**
-- **Morning (Modules 5)**:
-  - Search-based testing
-- **Afternoon (Modules 6-8)**:
-  - Metamorphic testing
-  - Input diversities
-  - Interactive testing
+### **Day 2: Coverage & Generation-based Techniques (Modules 4-7)**
+- **Module 4**: Test coverages (structural and neuron coverages)
+- **Module 5**: Fuzz testing
+- **Module 6**: Search-based testing
+- **Module 7**: Mutation testing
 
-### **Day 3: Optimization & Real-world Applications**
-- **Morning (Modules 9-10)**:
-  - Test optimization strategies
-  - Domain-specific testing methods (Vision, ADS, LLM)
-- **Afternoon (Modules 11-12)**:
-  - Practical projects and challenges
-  - Course conclusion and next steps
+### **Day 3: Advanced Methods & Projects (Modules 8-10)**
+- **Module 8**: Metamorphic testing
+- **Module 9**: Regression testing
+- **Module 10**: Projects (SDC Testing Challenge)
 
 ---
 
