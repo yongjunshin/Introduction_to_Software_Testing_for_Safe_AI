@@ -72,9 +72,9 @@ This course is continuously updated.
 
 ## **©️ Copyrights**
 
-All course documents and exercises are summarized and programmed by the lecturer.
+All course documents and exercises are summarized and made by the lecturer.
 
-It is generously open to use but should contact for permission.
+These materials are freely available for personal study, but please contact the lecturer for prior permission before redistributing these materials or any modified versions of them.
 
 For inquiries about the 3-day intensive course including lecture slides, please contact for more information.
 
