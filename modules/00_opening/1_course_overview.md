@@ -85,16 +85,16 @@ This is designed as a **3-day intensive course**, covering 11 modules split as *
 - **Module 2**: Black-box testing
 - **Module 3**: Constraint-based testing
 
-### **Day 2: Coverage & Generation-based Techniques (Modules 4-7)**
+### **Day 2: Coverage & Generation-based Techniques (Modules 4-6)**
 - **Module 4**: Test coverages (structural and neuron coverages)
 - **Module 5**: Fuzz testing
 - **Module 6**: Search-based testing
-- **Module 7**: Mutation testing
 
-### **Day 3: Advanced Methods & Projects (Modules 8-10)**
+### **Day 3: Advanced Methods & Projects (Modules 7-10)**
+- **Module 7**: Mutation testing
 - **Module 8**: Metamorphic testing
 - **Module 9**: Regression testing
-- **Module 10**: Projects (SDC Testing Challenge)
+- **Module 10**: Projects (SDC Testing Challenge, BYOP Project)
 
 ---
 
