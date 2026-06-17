@@ -56,7 +56,7 @@ This is a **3-day intensive course** covering 11 modules, organized as **4 / 4 /
 - Mutation testing
 - Metamorphic testing
 - Regression testing
-- Projects (SDC Testing Challenge)
+- Projects (SDC Testing Challenge, BYOP Project)
 
 
 ---
