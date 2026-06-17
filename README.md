@@ -51,9 +51,9 @@ This is a **3-day intensive course** covering 11 modules, organized as **4 / 4 /
 - Test coverages (structural and neuron coverages)
 - Fuzz testing
 - Search-based testing
-- Mutation testing
 
 **Day 3 — Advanced Methods & Projects**
+- Mutation testing
 - Metamorphic testing
 - Regression testing
 - Projects (SDC Testing Challenge)
